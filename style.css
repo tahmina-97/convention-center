@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#banner, #memory, #pricing{
+    margin-bottom: 7rem;
+}
+.carousel-indicators [data-bs-target]{
+    width: 5rem;
+}
+
+.carousel-caption{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+}
+.carousel-caption p{
+    padding: 0 5rem;
+}
+#pricing {
+    position: relative;
+}
+#pricing .section-title{
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 6rem;
+}
+
+.price-box h2{
+    font-size: 36px;
+    color: #231D4F;
+
+}
+.price-box h4{
+    font-size: 28px;
+    color: #231D4F;
+}
+.price-box p, ul>li{
+    font-size: 15px;
+    color: #848199;
+    line-height: 2rem;
+}
+
+
+.price-box button{
+    background-color: rgb(244, 150, 209, 0.1);
+}
+
+@media only screen and (max-width:991px){
+
+    .carousel-item{
+        height: 90vh;
+    }
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .carousel-caption{
+        position: absolute;
+        left: 0%;
+        bottom: 3rem;
+        width: 100%; 
+        padding: 0 2rem; 
+    }
+    .carousel-caption h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .carousel-caption p{
+        font-size: 16px;
+        padding: 0 3rem;
+    }
+    
+   
+
+
+}
+
