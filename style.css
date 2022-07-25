@@ -5,7 +5,7 @@ body{
 }
 
 
-#banner, #memory, #pricing, #clients{
+#banner, #memory, #pricing, #clients,#faq{
     margin-bottom: 7rem;
 }
 .carousel-indicators [data-bs-target]{
@@ -53,10 +53,18 @@ body{
     background-color: rgb(244, 150, 209, 0.1);
 }
  .client-box{
-    width: 370px;
+    width: 380px;
 } 
 
+footer .row{
+    height: 280px;
+}
+
 @media only screen and (max-width:991px){
+
+    #banner, #memory, #pricing, #clients,#faq{
+        margin-bottom: 5rem;
+    }
 
     .carousel-item{
         height: 90vh;
@@ -81,9 +89,10 @@ body{
         font-size: 16px;
         padding: 0 3rem;
     }
-    
-   
 
-
+    .section-title{
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
 }
 
