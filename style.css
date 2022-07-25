@@ -5,7 +5,7 @@ body{
 }
 
 
-#banner, #memory, #pricing{
+#banner, #memory, #pricing, #clients{
     margin-bottom: 7rem;
 }
 .carousel-indicators [data-bs-target]{
@@ -23,10 +23,10 @@ body{
 #pricing {
     position: relative;
 }
-#pricing .section-title{
+.section-title{
     font-size: 38px;
     color: #0A0826;
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
 }
 
 .price-box h2{
@@ -43,11 +43,18 @@ body{
     color: #848199;
     line-height: 2rem;
 }
+.price-box ul i{
+    padding: 3px 4px;
+    border-radius: 50%;
+    background-color: rgb(82, 67, 194, 0.13);
 
-
+}
 .price-box button{
     background-color: rgb(244, 150, 209, 0.1);
 }
+ .client-box{
+    width: 370px;
+} 
 
 @media only screen and (max-width:991px){
 
